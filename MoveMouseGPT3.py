@@ -14,6 +14,8 @@ while True:
     else:
         pyautogui.moveRel(-10, 0)
     
+    print("\n\nEjecutando...")
+
     # alternar el valor de la variable
     move_right = not move_right
     
